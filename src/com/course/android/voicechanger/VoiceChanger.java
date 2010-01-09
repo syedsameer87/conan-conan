@@ -15,6 +15,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 
 public class VoiceChanger extends Activity {	
 	
@@ -46,6 +48,8 @@ public class VoiceChanger extends Activity {
 		intScreenX = dm.widthPixels;
 		intScreenY = dm.heightPixels;
 		screenRect = new Rect(0, 0, intScreenX, intScreenY);
+		
+		hideTheWindowTitle();
 		
         SampleView view = new SampleView(this);
         setContentView(view);
@@ -82,6 +86,13 @@ public class VoiceChanger extends Activity {
     	Log.d("Liwei", "SoundEffect Used: " + soundEffect);
     	return true;
     }    
+
+    private void hideTheWindowTitle() {
+		// Hide the window title.
+		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+				WindowManager.LayoutParams.FLAG_FULLSCREEN);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+	}    
     
     private static class SampleView extends View {    	
     	
