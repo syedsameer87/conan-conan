@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, VoiceChanger!</string>
+    <string name="app_name">Voice Changer</string>
+    <string name="menu_effect_1">Effect 1</string>
+    <string name="menu_effect_2">Effect 2</string>
+    <string name="menu_effect_3">Effect 3</string>
+    <string name="menu_effect_4">Effect 4</string>
+    <string name="menu_effect_5">Effect 5</string>
+</resources>
