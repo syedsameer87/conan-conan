@@ -11,25 +11,37 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int icon=0x7f020000;
-        public static final int playing=0x7f020001;
-        public static final int recording=0x7f020002;
-        public static final int touch=0x7f020003;
+        public static final int blingnecktie=0x7f020000;
+        public static final int conanbackground=0x7f020001;
+        public static final int conaneye1b=0x7f020002;
+        public static final int eye5=0x7f020003;
+        public static final int front=0x7f020004;
+        public static final int icon=0x7f020005;
+        public static final int necktie=0x7f020006;
+        public static final int playing=0x7f020007;
+        public static final int recording=0x7f020008;
+        public static final int recording2=0x7f020009;
+        public static final int recording2b=0x7f02000a;
+        public static final int touch=0x7f02000b;
     }
     public static final class id {
-        public static final int Button01=0x7f050000;
-        public static final int TextView01=0x7f050001;
+        public static final int Button01=0x7f060000;
+        public static final int TextView01=0x7f060001;
     }
     public static final class layout {
         public static final int main=0x7f030000;
     }
+    public static final class raw {
+        public static final int conanaudio=0x7f040000;
+    }
     public static final class string {
-        public static final int app_name=0x7f040001;
-        public static final int hello=0x7f040000;
-        public static final int menu_effect_1=0x7f040002;
-        public static final int menu_effect_2=0x7f040003;
-        public static final int menu_effect_3=0x7f040004;
-        public static final int menu_effect_4=0x7f040005;
-        public static final int menu_effect_5=0x7f040006;
+        public static final int app_name=0x7f050001;
+        public static final int hello=0x7f050000;
+        public static final int menu_back=0x7f050002;
+        public static final int menu_effect_1=0x7f050003;
+        public static final int menu_effect_2=0x7f050004;
+        public static final int menu_effect_3=0x7f050005;
+        public static final int menu_effect_4=0x7f050006;
+        public static final int menu_effect_5=0x7f050007;
     }
 }
